@@ -1,0 +1,23 @@
+body{
+ background: linear-gradient(35deg, #bce5ff, #015c91) ;
+ font-family: 'Segoe UI', sans-serif;
+ color: aliceblue;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ margin: 0;
+}
+.caixinha {
+  background: transparent; /* cor azul com transparência */
+  border-radius: 16px;
+  padding: 30px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.274);
+  backdrop-filter: blur(20px); /* cria o efeito de vidro fosco */
+}
+p{
+    font-size: 25px;
+    font-weight: bold;
+}
